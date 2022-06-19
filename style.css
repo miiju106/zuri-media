@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+@media  screen  and (max-width:375px) {
+    main{
+flex-direction: column;
+    }
+    .left-content{
+font-size: 15px;
+display:block !important;
+text-align: center;
+font-size: 10px;
+
+/* margin: 20px 5px; */
+width: 100% !important ;
+padding: 30px;
+
+ 
+ }
+ .right-content {
+  display:block !important;
+width: 100% !important ;
+padding: 30px;
+
+ }
+ .left-content h2{
+  font-size: 30px !important;
+ }
+ .left-content p {
+font-size: 10px !important;
+ }
+ body img{
+  width: 100% !important;
+ }
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("bg-intro-desktop.png");
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  min-height: 100vh;
+  /* padding: auto 100em; */
+  font-family: Poppins;
+}
+.left-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 30%;
+  color: white;
+  margin-right: 15px;
+}
+.left-content h2 {
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 110%;
+  padding-bottom: 20px;
+}
+.left-content p {
+  font-size: 12px;
+  font-weight: regular;
+}
+.right-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 35%;
+}
+
+.first-box {
+  background-color: hsl(249, 10%, 26%);
+  width: 100%;
+  margin-bottom: 2em;
+  font-size: 12px;
+  text-align: center;
+  padding: 1em 0;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 5px;
+}
+.first-box p {
+  padding: 0.5em auto;
+  margin: auto;
+  color: white;
+  font-weight: 600;
+  line-height: 20px;
+}
+.then {
+  font-weight: 400;
+}
+.second-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3em 0;
+  margin: auto;
+}
+.second-box p {
+  font-size: 9px;
+}
+.second-box b {
+  color: hsl(154, 59%, 51%);
+}
+
+input {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+button {
+  font-size: 14px;
+  width: 80%;
+  padding: 10px 30px;
+  font-family: Poppins;
+  margin-bottom: 10px;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
